@@ -1,10 +1,5 @@
 var main = function(){
-	$('.btn').click(function(){
-		console.log("Test success");
-		
-	});
-	
-	
+	console.log("hi");
 };
 
 $(document).ready(main);
