@@ -35,6 +35,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
+	
   height: 300px;
   background-color: #777;
 }
