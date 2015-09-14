@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;
+  background-color:lightgrey;
 }
 .body-information{
   padding: 40px 15px;
@@ -8,11 +9,15 @@ body {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
+.profile-picture{
+	height: 300px;
+	
+}
 /* Carousel base class */
 .carousel {
   /*width:100%;*/
-  height: 500px;
+  width:auto;
+  height: 300px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -30,7 +35,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 300px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -38,5 +43,5 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 300px;
 }
