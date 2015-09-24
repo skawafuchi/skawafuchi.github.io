@@ -1,20 +1,28 @@
-/*General Body Style*/
-body {
-	background-color: lightgrey;
+
+/*Taken from https://css-tricks.com/perfect-full-page-background-image/*/
+body { 
+	/*image downloaded from http://petaimg.com/gaming-wallpaper-gallery-photos/*/
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .profile-picture {
-	display: inline-block;
-	margin: 10px;
-	height: 300px;
+	max-width:100%;
+	width:auto;
+	height: auto\9;
 }
 
-.body-information {
+.body-information{
+	color:white;
+	background-color: rgba(0, 0, 0, 0.7);
 	display: inline;
 	position: absolute;
+	margin: 0px 20px 0px 20px;
 }
 
-/*Navigation bar style*/
 .navbar {
 	font-size: 24px;
 }
@@ -23,15 +31,11 @@ body {
 	margin-bottom: 10px;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
 .carousel {
 	height: 300px;
 	margin-bottom: 20px;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
 	z-index: 10;
 }
@@ -41,7 +45,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* Declare heights because of positioning of img element */
+
 .carousel .item {
 	height: 300px;
 	background-color: #777;
@@ -53,4 +57,11 @@ body {
 	left: 0;
 	min-width: 100%;
 	height: 300px;
+}
+
+/*Removes picture when screen width gets too narrow*/
+@media only screen and (max-width: 1200px){
+	.profile-picture{
+		display:none;
+	}
 }
