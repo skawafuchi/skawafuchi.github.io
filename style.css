@@ -1,22 +1,22 @@
-
 /*Taken from https://css-tricks.com/perfect-full-page-background-image/*/
-body { 
+body {
 	/*image downloaded from http://petaimg.com/gaming-wallpaper-gallery-photos/*/
-  background: url(images/background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url(images/Background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-bottom: 100px;
 }
 
 .profile-picture {
-	max-width:100%;
-	width:auto;
+	max-width: 100%;
+	width: auto;
 	height: auto\9;
 }
 
-.body-information{
-	color:white;
+.body-information {
+	color: white;
 	background-color: rgba(0, 0, 0, 0.7);
 	display: inline;
 	position: absolute;
@@ -45,7 +45,6 @@ body {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-
 .carousel .item {
 	height: 300px;
 	background-color: #777;
@@ -59,9 +58,25 @@ body {
 	height: 300px;
 }
 
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	margin-top: -40px;
+	height: 30px;
+	background-color: rgba(26, 26, 26, 0.8);
+}
+
+.icon {
+	position: relative;
+	height: 30px;
+	float: auto;
+}
+
 /*Removes picture when screen width gets too narrow*/
-@media only screen and (max-width: 1200px){
-	.profile-picture{
-		display:none;
+@media only screen and (max-width: 1200px) {
+	.profile-picture {
+		display: none;
 	}
 }
