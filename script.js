@@ -28,6 +28,17 @@ var main = function() {
 	}, function() {
 		$(this).find('.caption').slideUp(200);
 	});
+	
+	$(".thumbnail").on("tap",function() {
+		var displaying = $(this).find('.caption').css("display");
+		
+		
+		if (displaying === "none"){
+			$(this).find('.caption').slideDown(200); 
+		}else{
+			$(this).find('.caption').slideUp(200);
+		}
+	});
 
 };
 
