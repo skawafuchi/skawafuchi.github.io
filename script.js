@@ -29,15 +29,15 @@ var main = function() {
 		$(this).find('.caption').slideUp(200);
 	});
 	
+	//Phone transitions
 	$(".thumbnail").on("tap",function() {
-		var displaying = $(this).find('.caption').css("display");
-		
-		
-		if (displaying === "none"){
-			$(this).find('.caption').slideDown(200); 
-		}else{
-			$(this).find('.caption').slideUp(200);
-		}
+		$(this).find('.caption').slideDown(200); 
+
+	});
+	
+	$(".caption").on("tap",function() {
+		$(this).slideUp(200); 
+
 	});
 
 };
