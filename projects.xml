@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects_list>
+	<project>
+		<name>PROJECT NAME</name>
+		<short_description>PROJECT DESCRIPTION</short_description>
+		<full_description>FULL PROJECT DESCRIPTION</full_description>
+
+		<time_frame>
+			<start_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</start_date>
+			<end_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</end_date>
+		</time_frame>
+
+		<project_url>PROJECT URL</project_url>
+		<picture_url>example.com</picture_url>
+		<thumbnail_url>example.com</thumbnail_url>
+	</project>
+	<project>
+		<name>PROJECT NAME 1</name>
+		<short_description>PROJECT DESCRIPTION</short_description>
+		<full_description>FULL PROJECT DESCRIPTION</full_description>
+
+		<time_frame>
+			<start_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</start_date>
+			<end_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</end_date>
+		</time_frame>
+
+		<project_url>PROJECT URL</project_url>
+		<picture_url>example.com</picture_url>
+		<thumbnail_url>example.com</thumbnail_url>
+	</project>
+	<project>
+		<name>PROJECT NAME 2</name>
+		<short_description>PROJECT DESCRIPTION</short_description>
+		<full_description>FULL PROJECT DESCRIPTION</full_description>
+
+		<time_frame>
+			<start_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</start_date>
+			<end_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</end_date>
+		</time_frame>
+
+		<project_url>PROJECT URL</project_url>
+		<picture_url>example.com</picture_url>
+		<thumbnail_url>example.com</thumbnail_url>
+	</project>
+	<project>
+		<name>PROJECT NAME 3</name>
+		<short_description>PROJECT DESCRIPTION</short_description>
+		<full_description>FULL PROJECT DESCRIPTION</full_description>
+
+		<time_frame>
+			<start_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</start_date>
+			<end_date>
+				<day>DAY</day>
+				<month>MONTH</month>
+				<year>YEAR</year>
+			</end_date>
+		</time_frame>
+
+		<project_url>PROJECT URL</project_url>
+		<picture_url>example.com</picture_url>
+		<thumbnail_url>example.com</thumbnail_url>
+	</project>
+
+
+</projects_list>
