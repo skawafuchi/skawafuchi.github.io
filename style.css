@@ -27,18 +27,22 @@ body {
 	font-size: 24px;
 }
 
+.navbar-collapse{
+	margin-top:5px;
+}
+
 .navbar-static-top {
 	margin-bottom: 10px;
 }
 
 .icon {
-	margin-top:-5px;
-	margin-left:-20px;
+	margin-top:-10px;
+	margin-right:-10px;
+	margin-bottom:-5px;
 	opacity:0.7;
 	position: relative;
-	height: 35px;
+	height:35px;
 	float: auto;
-	
 }
 
 
