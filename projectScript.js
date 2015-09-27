@@ -1,3 +1,5 @@
+//TODO add filters
+
 var main = function() {
 	loadProjects();
 
@@ -17,6 +19,8 @@ var main = function() {
 		$(this).slideUp(200); 
 	});
 };
+
+
 
 function printErrorMsg(XMLHttpRequest, errorMessage, errorThrown) {
 	alert("LOAD FAILED!: " + errorMessage + ":" + errorThrown);

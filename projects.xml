@@ -8,6 +8,9 @@
 			vocabulary lists to load into the game
 		</short_description>
 		<full_description>FULL PROJECT DESCRIPTION</full_description>
+		<members>
+			<member>Me</member>
+		</members>
 
 		<time_frame>
 			<start_date>
@@ -25,8 +28,10 @@
 		<urls>
 			<project_url>projectTemplate.html</project_url>
 			<picture_url>PICTURE URL</picture_url>
-			<thumbnail_url>images/thumbnails/JKT 3000 Thumbnail.png
-			</thumbnail_url>
+			<thumbnail_url>images/thumbnails/JKT 3000 Thumbnail.png</thumbnail_url>
+			<github_url>GITHUB URL</github_url>
+			<download_url>DL URL</download_url>
+			<youtube_url></youtube_url>
 		</urls>
 
 		<tags>
