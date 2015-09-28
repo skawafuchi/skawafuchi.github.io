@@ -127,10 +127,10 @@
 				<year>2015</year>
 			</end_date>
 		</time_frame>
-		
+
 		<urls>
 
-			<project_url>GotA.html</project_url>
+			<project_url>gota.html</project_url>
 			<github_url>https://github.com/JordanLingHua/projectH</github_url>
 			<download_url>https://github.com/JordanLingHua/projectH/archive/master.zip
 			</download_url>
@@ -139,7 +139,7 @@
 			</thumbnail_url>
 			<youtube_url>HWdZ8sP5Sss</youtube_url>
 		</urls>
-		
+
 		<tags>
 			<tag type="filter">Game</tag>
 			<tag type="technology">C#</tag>
@@ -185,31 +185,44 @@
 		<short_description>Website created to link to and display all my
 			projects as well as learn some new languages
 		</short_description>
-		<full_description>FULL PROJECT DESCRIPTION</full_description>
+		<full_description>Website created to showcase various projects that I
+			have completed over the years. The website attempts to be flexible and adjust to mobile platforms. 
+		</full_description>
+		<members>
+			<member>Steven Kawafuchi</member>
+		</members>
 
 		<time_frame>
 			<start_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>September</month>
+				<year>2015</year>
 			</start_date>
 			<end_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>On</month>
+				<year>Going</year>
 			</end_date>
 		</time_frame>
 
 		<urls>
-			<project_url>projectTemplate.html</project_url>
-			<picture_url>PICTURE URL</picture_url>
+			<github_url>https://github.com/skawafuchi/skawafuchi.github.io
+			</github_url>
+			<download_url>https://github.com/skawafuchi/skawafuchi.github.io/archive/master.zip
+			</download_url>
+			<project_url>thiswebsite.html</project_url>
+			<picture_url>images/Website Screenshot.pngL</picture_url>
 			<thumbnail_url>images/thumbnails/Website Thumbnail.png
 			</thumbnail_url>
 		</urls>
 		<tags>
-			<tag>TAG 1</tag>
-			<tag>TAG 2</tag>
-			<tag>TAG 3</tag>
+			<tag type="filter">Website</tag>
+			<tag type="technology">Javascript</tag>
+			<tag type="technology">JQuery</tag>
+			<tag type="technology">Bootstrap</tag>
+			<tag type="technology">XML</tag>
+			<tag type="technology">CSS</tag>
+			<tag type="technology">HTML</tag>
 		</tags>
 	</project>
 
