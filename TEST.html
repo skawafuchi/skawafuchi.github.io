@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="images/icons/Icon.ico">
+<title>A Little Programmer</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var projectName = "Chirpper";
+			$("#template").load("projectTemplate.html",function(){
+				$.ajax({
+					url : "projects.xml",
+					dataType : "xml",
+					success : function(xml){
+						var projectData = $(xml).find('project[name="' + projectName + '"]');
+						$("#name").text(projectData.find("name").text());
+						var start_date = projectData.find("start_date");
+						var end_date =  projectData.find("end_date");
+						var time_period = start_date.find("month").text() + " " + start_date.find("year").text() + " - " + end_date.find("month").text() + " " + end_date.find("year").text();
+						$("#time_period").text(time_period);
+						var members ="";
+						projectData.find("members").each(function(){members+=$(this).text();});
+						$("#team_members").text(members);
+						
+						$("#project_description").text(projectData.find("full_description").text());
+					}
+				});
+
+			});
+			
+		});
+	</script>
+<div id="template"></div>
+</body>
+</html>

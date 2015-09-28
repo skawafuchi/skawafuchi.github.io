@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects_list>
 
-	<project>
+	<project name="JKT">
 		<name>JKT</name>
 		<short_description>Game designed and created for students studying
 			Japanese. Flexibility was kept in mind so they could create their own
@@ -41,13 +41,19 @@
 		</tags>
 	</project>
 
-	<project>
+	<project name="Chirpper">
 		<name>Chirpper</name>
 		<short_description>Audio version of Twitter web application developed
 			for an informatics project class at UCI.
 		</short_description>
 		<full_description>FULL PROJECT DESCRIPTION</full_description>
-
+		<members>
+			<member>Me</member>
+			<member>Me</member>
+			<member>Me</member>
+			<member>Me</member>
+		</members>
+		
 		<time_frame>
 			<start_date>
 				<day>DAY</day>
@@ -105,7 +111,7 @@
 		</tags>
 	</project>
 
-	<project>
+	<project name="Bazinga Z">
 		<name>Bazinga Z</name>
 		<short_description>Mobile shooter game designed that was ranked top of
 			it's class
@@ -137,7 +143,7 @@
 		</tags>
 	</project>
 
-	<project>
+	<project name="This Website!">
 		<name>This Website!</name>
 		<short_description>Website created to link to and display all my
 			projects as well as learn some new languages

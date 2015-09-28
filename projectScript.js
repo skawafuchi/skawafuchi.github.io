@@ -20,8 +20,6 @@ var main = function() {
 	});
 };
 
-
-
 function printErrorMsg(XMLHttpRequest, errorMessage, errorThrown) {
 	alert("LOAD FAILED!: " + errorMessage + ":" + errorThrown);
 }
