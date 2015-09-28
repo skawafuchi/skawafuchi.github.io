@@ -105,7 +105,11 @@
 			two quarters at UCI. Was a finalist at the 2015 IEEE GameSig Showcase
 		</short_description>
 		<full_description>Networked turn-based strategy game developed over
-			two quarters at UCI. Was a finalist at the 2015 IEEE GameSig Showcase
+			two quarters at UCI. Worked together and discussed various aspects of
+			game design and gameplay with each other. The team received advice
+			from mentors from Blizzard Entertainment about game mechanics.
+			Guardians of the Arena was a finalist at the 2015 IEEE GameSig
+			Showcase.
 		</full_description>
 		<members>
 			<member>Steven Kawafuchi</member>
@@ -131,6 +135,8 @@
 		<urls>
 
 			<project_url>gota.html</project_url>
+			<play_url>play/gota.html
+			</play_url>
 			<github_url>https://github.com/JordanLingHua/projectH</github_url>
 			<download_url>https://github.com/JordanLingHua/projectH/archive/master.zip
 			</download_url>
@@ -151,32 +157,47 @@
 	<project name="Bazinga Z">
 		<name>Bazinga Z</name>
 		<short_description>Mobile shooter game designed that was ranked top of
-			it's class
+			the class
 		</short_description>
-		<full_description>FULL PROJECT DESCRIPTION</full_description>
+		<full_description>A mobile 2D Side-Scrolling Shooter and Tap and Swipe
+			Battle game set in space! All team members contributed to the GDD and
+			attended weekly meetings about the game's design. Our instructor,
+			Craig Holland of FreezeTag Games, and his friend, David Daniels of
+			Mogol Games, assigned a rank to each of the 10 pitches. Bazinga Z was
+			#1!
+		</full_description>
+		<members>
+			<member>Steven Kawafuchi</member>
+			<member>Tamara Sahagun</member>
+			<member>Mari Rann</member>
+			<member>Elson Chin</member>
+			<member>Jonathan Shokoor</member>
+		</members>
 
 		<time_frame>
 			<start_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>September</month>
+				<year>2013</year>
 			</start_date>
 			<end_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>December</month>
+				<year>2013</year>
 			</end_date>
 		</time_frame>
 		<urls>
-			<project_url>projectTemplate.html</project_url>
-			<picture_url>PICTURE URL</picture_url>
+			<project_url>bazingaz.html</project_url>
+			<play_url>https://prezi.com/1n2xznnrnabs/bazinga-z-presentation/
+			</play_url>
+			<picture_url>images/Bazinga Z Screenshot.png</picture_url>
 			<thumbnail_url>images/thumbnails/Bazinga Z Thumbnail.png
 			</thumbnail_url>
 		</urls>
 		<tags>
-			<tag>TAG 1</tag>
-			<tag>TAG 2</tag>
-			<tag>TAG 3</tag>
+			<tag type="filter">Game</tag>
+			<tag type="technology">Google Docs</tag>
+			<tag type="technology">Prezi</tag>
 		</tags>
 	</project>
 
@@ -186,7 +207,8 @@
 			projects as well as learn some new languages
 		</short_description>
 		<full_description>Website created to showcase various projects that I
-			have completed over the years. The website attempts to be flexible and adjust to mobile platforms. 
+			have completed over the years. The website attempts to be flexible
+			and adjust to mobile platforms.
 		</full_description>
 		<members>
 			<member>Steven Kawafuchi</member>
