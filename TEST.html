@@ -16,33 +16,65 @@
 
 </head>
 <body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script>
-		$(function() {
-			var projectName = "Chirpper";
-			$("#template").load("projectTemplate.html",function(){
-				$.ajax({
-					url : "projects.xml",
-					dataType : "xml",
-					success : function(xml){
-						var projectData = $(xml).find('project[name="' + projectName + '"]');
-						$("#name").text(projectData.find("name").text());
-						var start_date = projectData.find("start_date");
-						var end_date =  projectData.find("end_date");
-						var time_period = start_date.find("month").text() + " " + start_date.find("year").text() + " - " + end_date.find("month").text() + " " + end_date.find("year").text();
-						$("#time_period").text(time_period);
-						var members ="";
-						projectData.find("members").each(function(){members+=$(this).text();});
-						$("#team_members").text(members);
-						
-						$("#project_description").text(projectData.find("full_description").text());
-					}
-				});
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
 
-			});
-			
-		});
-	</script>
-<div id="template"></div>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="blog.html">Blog</a></li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://www.linkedin.com/pub/steven-kawafuchi/97/254/169"><img class="icon" src="images/icons/Linkedin Icon.png"> </a></li>
+					<li><a href="https://github.com/skawafuchi"><img class="icon" src="images/icons/GitHub Icon.png"> </a></li>
+					<li><a href="https://www.youtube.com/channel/UCGXMmjIW51zySsZL0pdleNQ"><img class="icon" src="images/icons/Youtube Icon.png"> </a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="body-information">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<h1 id="name">Project Name</h1>
+						<h4 id="time_period">TIME PERIOD</h4>
+						<div id="note"></div>
+						<p id="project_description">Project Description</p>
+						<h3>Team Members</h3>
+						<p id="team_members"></p>
+
+						<h3>Technologies</h3>
+						<p id="technologies"></p>
+						<h3>Links</h3>
+						<p id="links">
+						</p>
+					</div>
+					<!-- ./col -->
+					<div class="col-md-5" id="media">
+					<!-- 	<iframe width="420" height="315" src="http://www.youtube.com/embed/HWdZ8sP5Sss" style="margin-top:20px;"></iframe><br> -->
+
+					</div>
+				</div>
+				<!-- ./row -->
+			</div>
+			<!-- ./container -->
+		</div>
+		<!-- ./body information -->
+	</div>
+	<!-- ./container -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+	<script>loadProject("Chirpper");</script>
 </body>
 </html>

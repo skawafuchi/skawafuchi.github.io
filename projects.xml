@@ -7,28 +7,32 @@
 			Japanese. Flexibility was kept in mind so they could create their own
 			vocabulary lists to load into the game
 		</short_description>
-		<full_description>FULL PROJECT DESCRIPTION</full_description>
+		<full_description>Game designed and created for students studying
+			Japanese. Flexibility was kept in mind so they could create their own
+			vocabulary lists to load into the game.
+		</full_description>
 		<members>
-			<member>Me</member>
+			<member>Steven Kawafuchi</member>
 		</members>
 
 		<time_frame>
 			<start_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>February</month>
+				<year>2015</year>
 			</start_date>
 			<end_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>On</month>
+				<year>Going</year>
 			</end_date>
 		</time_frame>
 
 		<urls>
 			<project_url>projectTemplate.html</project_url>
-			<picture_url>PICTURE URL</picture_url>
-			<thumbnail_url>images/thumbnails/JKT 3000 Thumbnail.png</thumbnail_url>
+			<picture_url>images/JKT 3000 Screenshot</picture_url>
+			<thumbnail_url>images/thumbnails/JKT 3000 Thumbnail.png
+			</thumbnail_url>
 			<github_url>GITHUB URL</github_url>
 			<download_url>DL URL</download_url>
 			<youtube_url></youtube_url>
@@ -46,68 +50,101 @@
 		<short_description>Audio version of Twitter web application developed
 			for an informatics project class at UCI.
 		</short_description>
-		<full_description>FULL PROJECT DESCRIPTION</full_description>
+		<full_description>Audio version of Twitter web application developed
+			for an informatics project class at UCI. Project was developed in C#
+			using Unity to develop the front end and Java to develop the server
+			which was hosted on Heroku. The server connected with AWS S3 to store
+			all of the audio files and used a PostgreSQL database in order to
+			store user information.
+		</full_description>
+		<note>Server is disconnected from AWS S3 at the moment. No audio files
+			will be stored or can be played.
+		</note>
 		<members>
-			<member>Me</member>
-			<member>Me</member>
-			<member>Me</member>
-			<member>Me</member>
+			<member>Steven Kawafuchi</member>
+			<member>Mari Rann</member>
 		</members>
-		
+
 		<time_frame>
 			<start_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>April</month>
+				<year>2015</year>
 			</start_date>
 			<end_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>June</month>
+				<year>2015</year>
 			</end_date>
 		</time_frame>
 		<urls>
-			<project_url>projectTemplate.html</project_url>
-			<picture_url>PICTURE URL</picture_url>
+			<project_url>chirpper.html</project_url>
+			<github_url>https://github.com/MsRann/Chirpper</github_url>
+			<download_url>https://github.com/MsRann/Chirpper/archive/master.zip
+			</download_url>
+			<play_url>play/Chirpper.html</play_url>
+			<picture_url>images/Chirpper Screenshot.png</picture_url>
 			<thumbnail_url>images/thumbnails/Chirpper Thumbnail.png
 			</thumbnail_url>
 		</urls>
 		<tags>
-			<tag>TAG 1</tag>
-			<tag>TAG 2</tag>
-			<tag>TAG 3</tag>
+			<tag type="filter">Website</tag>
+			<tag type="technology">C#</tag>
+			<tag type="technology">Unity 3D</tag>
+			<tag type="technology">Java</tag>
+			<tag type="technology">PostgreSQL</tag>
+			<tag type="technology">Heroku</tag>
+			<tag type="technology">AWS S3</tag>
+			<tag type="technology">Eclipse</tag>
 		</tags>
 	</project>
 
-	<project>
+	<project name="Guardians of the Arena">
 		<name>Guardians of the Arena</name>
 		<short_description>Networked turn-based strategy game developed over
 			two quarters at UCI. Was a finalist at the 2015 IEEE GameSig Showcase
 		</short_description>
-		<full_description>FULL PROJECT DESCRIPTION</full_description>
+		<full_description>Networked turn-based strategy game developed over
+			two quarters at UCI. Was a finalist at the 2015 IEEE GameSig Showcase
+		</full_description>
+		<members>
+			<member>Steven Kawafuchi</member>
+			<member>Joey Shepard</member>
+			<member>Daniel Tenorio</member>
+			<member>Jordan Hua</member>
+			<member>Chris German</member>
+		</members>
 
 		<time_frame>
 			<start_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>October</month>
+				<year>2014</year>
 			</start_date>
 			<end_date>
 				<day>DAY</day>
-				<month>MONTH</month>
-				<year>YEAR</year>
+				<month>March</month>
+				<year>2015</year>
 			</end_date>
 		</time_frame>
+		
 		<urls>
-			<project_url>projectTemplate.html</project_url>
-			<picture_url>PICTURE URL</picture_url>
+
+			<project_url>GotA.html</project_url>
+			<github_url>https://github.com/JordanLingHua/projectH</github_url>
+			<download_url>https://github.com/JordanLingHua/projectH/archive/master.zip
+			</download_url>
+			<picture_url>images/GotA Screenshot.png</picture_url>
 			<thumbnail_url>images/thumbnails/GotA Thumbnail.png
 			</thumbnail_url>
+			<youtube_url>HWdZ8sP5Sss</youtube_url>
 		</urls>
+		
 		<tags>
-			<tag>TAG 1</tag>
-			<tag>TAG 2</tag>
-			<tag>TAG 3</tag>
+			<tag type="filter">Game</tag>
+			<tag type="technology">C#</tag>
+			<tag type="technology">Unity 3D</tag>
+			<tag type="technology">Visual Studio</tag>
 		</tags>
 	</project>
 
