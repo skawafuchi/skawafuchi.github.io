@@ -2,23 +2,7 @@
 var options = [ "Website", "Game" ];
 var main = function() {
 	loadProjects();
-
-	$(".thumbnail").hover(function() {
-		$(this).find('.caption').slideDown(200);
-	}, function() {
-		$(this).find('.caption').slideUp(200);
-	});
-
-	// Phone transitions
-	$(".thumbnail").on("tap", function() {
-		$(this).find('.caption').slideDown(200);
-
-	});
-
-	$(".caption").on("tap", function() {
-		$(this).slideUp(200);
-	});
-
+	addInteractions();
 	$('.dropdown-menu a').on(
 			'click',
 			function(event) {
@@ -43,9 +27,30 @@ var main = function() {
 				console.log("Game is in the array is: "+ ($.inArray("Game", options) === -1? "false":"true"));
 				console.log("Website is in the array is: "+ ($.inArray("Website", options) === -1?"false":"true"));
 				loadProjects();
+				addInteractions();
 				return false;
 			});
 };
+
+function addInteractions(){
+	
+
+	$(".thumbnail").hover(function() {
+		$(this).find('.caption').slideDown(200);
+	}, function() {
+		$(this).find('.caption').slideUp(200);
+	});
+
+	// Phone transitions
+	$(".thumbnail").on("tap", function() {
+		$(this).find('.caption').slideDown(200);
+
+	});
+
+	$(".caption").on("tap", function() {
+		$(this).slideUp(200);
+	});
+}
 
 function printErrorMsg(XMLHttpRequest, errorMessage, errorThrown) {
 	alert("LOAD FAILED!: " + errorMessage + ":" + errorThrown);

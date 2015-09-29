@@ -106,28 +106,13 @@
 			to allow for multi-touch interaction.
 		</short_description>
 		<full_description>
-			The input was gathered using a Logitech c270 camera with certain
-			brightness and contrast values adjusted to interface to the Community
-			Core Vision software.
-			The camera was placed into a cardboard box and put under a frame with a
-			piece of paper in it in order to allow touch interaction.
-			From there the image threshold, blob size, blur, noise, and amplify
-			values were adjusted appropriately only recieve inputs from fingers
-			touching the frame through CCV.
-			The game was created in Eclipse using Java and MT4J. 
-			This was the first time I used MT4J so I had to look up tutorials and example programs in order to get a better understanding of it and learn how to properly add touch interaction. 
-			As described in the video, the game revolves around blowing up bubbles by using a zooming action in the bubble in order to blow them up to a point of popping them. 
-			Once a bubble is popped, the game increases the difficulty as described in the video. RunPopDemBubbles.java extends the MTApplication class and initializes the window and starts up the 
-			BubbleScene where the game is run. The BubbleScene.java creates a MTApplication where it creates all the basic UI elements to the game such as the description of the game,
-			how to play it, the score and lives of the player and game over text when the player loses. 
-			These textfields had their gesture listeners removed in order to prevent the player from moving and interacting with them while the game is running.
-		The GameThread.java uses a timer to do various events such as shrinking the bubble over time as well as creating bubbles when appropriate. 
-			The game checks every 20ms to see if the bubble is small enough to make the player lose a life. 
-			Every 1.5 seconds there is another timer event that adds bubbles if the difficulty allows it. 
-			The game uses a CopyOnWriteArrayList in order to avoid ConcurrentModificationExceptions that occured during initial gameplay when destroying bubbles when a player popped them, or when it popped from shrinking. 
-			Every bubble is a MTEllipse that has all its inherit gesture listeners removed and a single ZoomProcessor attached to it which checks the size of the bubble, sets the color, and increases score when appropriate.
-			Upon losing the game the timer stops and all bubbles are removed from the scene in order to prevent players from continuing to play.
-		
+			Game was created as an assignment for an informatics
+			class taught at UCI. The input was received from a webcam that was
+			brought into a CCV. The game was developed using MT4J and Java where
+			multi-touch interaction was allowed. The game's objective is to pop
+			as many bubbles, by using a pulling-apart motion, as possible before
+			running out of lives. Once the game completes the user can see their
+			score at the end.
 		</full_description>
 		<members>
 			<member role="Designer and Programmer">Steven Kawafuchi</member>
