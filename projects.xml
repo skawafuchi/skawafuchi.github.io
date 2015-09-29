@@ -100,6 +100,75 @@
 		</tags>
 	</project>
 
+	<project name="Bubble Bubble Pop Pop">
+		<name>Bubble Bubble Pop Pop</name>
+		<short_description>Bubble popping game that used various technologies
+			to allow for multi-touch interaction.
+		</short_description>
+		<full_description>
+			The input was gathered using a Logitech c270 camera with certain
+			brightness and contrast values adjusted to interface to the Community
+			Core Vision software.
+			The camera was placed into a cardboard box and put under a frame with a
+			piece of paper in it in order to allow touch interaction.
+			From there the image threshold, blob size, blur, noise, and amplify
+			values were adjusted appropriately only recieve inputs from fingers
+			touching the frame through CCV.
+			The game was created in Eclipse using Java and MT4J. 
+			This was the first time I used MT4J so I had to look up tutorials and example programs in order to get a better understanding of it and learn how to properly add touch interaction. 
+			As described in the video, the game revolves around blowing up bubbles by using a zooming action in the bubble in order to blow them up to a point of popping them. 
+			Once a bubble is popped, the game increases the difficulty as described in the video. RunPopDemBubbles.java extends the MTApplication class and initializes the window and starts up the 
+			BubbleScene where the game is run. The BubbleScene.java creates a MTApplication where it creates all the basic UI elements to the game such as the description of the game,
+			how to play it, the score and lives of the player and game over text when the player loses. 
+			These textfields had their gesture listeners removed in order to prevent the player from moving and interacting with them while the game is running.
+		The GameThread.java uses a timer to do various events such as shrinking the bubble over time as well as creating bubbles when appropriate. 
+			The game checks every 20ms to see if the bubble is small enough to make the player lose a life. 
+			Every 1.5 seconds there is another timer event that adds bubbles if the difficulty allows it. 
+			The game uses a CopyOnWriteArrayList in order to avoid ConcurrentModificationExceptions that occured during initial gameplay when destroying bubbles when a player popped them, or when it popped from shrinking. 
+			Every bubble is a MTEllipse that has all its inherit gesture listeners removed and a single ZoomProcessor attached to it which checks the size of the bubble, sets the color, and increases score when appropriate.
+			Upon losing the game the timer stops and all bubbles are removed from the scene in order to prevent players from continuing to play.
+		
+		</full_description>
+		<members>
+			<member role="Designer and Programmer">Steven Kawafuchi</member>
+		</members>
+
+		<time_frame>
+			<start_date>
+				<day>DAY</day>
+				<month>November</month>
+				<year>2014</year>
+			</start_date>
+			<end_date>
+				<day>DAY</day>
+				<month>December</month>
+				<year>2014</year>
+			</end_date>
+		</time_frame>
+
+		<urls>
+
+			<project_url>bubblebubblepoppop.html</project_url>
+			<github_url>https://github.com/skawafuchi/Bubble-Bubble-Pop-Pop
+			</github_url>
+			<download_url>https://github.com/skawafuchi/Bubble-Bubble-Pop-Pop/archive/master.zip
+			</download_url>
+			<picture_url>images/Bubble Bubble Pop Pop Screenshot.png
+			</picture_url>
+			<thumbnail_url>images/thumbnails/Bubble Bubble Pop Pop Thumbnail.png
+			</thumbnail_url>
+			<youtube_url>IzrRnMsqLw4</youtube_url>
+		</urls>
+
+		<tags>
+			<tag type="filter">Game</tag>
+			<tag type="technology">CCV</tag>
+			<tag type="technology">Eclipse</tag>
+			<tag type="technology">MT4J</tag>
+		</tags>
+	</project>
+
+
 	<project name="Guardians of the Arena">
 		<name>Guardians of the Arena</name>
 		<short_description>Networked turn-based strategy game developed over
