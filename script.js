@@ -41,7 +41,11 @@ function loadProject(projectName) {
 				$("#project_description").text(projectData.find("full_description").text());
 
 				projectData.find("member").each(function(){
-					$("#team_members").append($(this).text() + "<br>");
+					$("#team_members").append('<div style="font-size:18px;">' + $(this).text() + "</div>");
+					
+					if (typeof $(this).attr("role") !== typeof undefined && $(this).attr("role") !== false){
+						$("#team_members").append('<div style="padding-left: 15px;">' +  $(this).attr("role")  + '</div>');
+					}
 				});
 				
 				if (projectData.find("note").length){
