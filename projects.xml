@@ -167,6 +167,7 @@
 			feedback to improve the game. Guardians of the Arena was a finalist
 			at the 2015 IEEE GameSig Showcase.
 		</full_description>
+
 		<members>
 			<member role="Designer and Client-Side Programmer">Steven Kawafuchi</member>
 			<member role="Producer, Designer, AI/UI Programmer">Joey Shepard</member>
@@ -189,9 +190,7 @@
 		</time_frame>
 
 		<urls>
-
 			<project_url>gota.html</project_url>
-			<play_url>play/gota.html</play_url>
 			<github_url>https://github.com/JordanLingHua/projectH</github_url>
 			<download_url>https://github.com/JordanLingHua/projectH/archive/master.zip
 			</download_url>
