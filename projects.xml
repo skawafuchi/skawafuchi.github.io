@@ -12,6 +12,8 @@
 			from three different difficulty levels, and the game can be used for
 			other languages as well.
 		</full_description>
+		<note>Currently in development and has a few bugs as well as some features missing.
+		</note>
 		<directions>
 			<setup>Download the folder from the link. Extract the contents
 				anywhere you like. Run the JKT3000 executable Jar file, and then
@@ -88,8 +90,9 @@
 			<picture_url>images/JKT 3000 Screenshot</picture_url>
 			<thumbnail_url>images/thumbnails/JKT 3000 Thumbnail.png
 			</thumbnail_url>
-			<github_url>GITHUB URL</github_url>
-			<download_url>DL URL</download_url>
+			<github_url>https://github.com/skawafuchi/JKT</github_url>
+			<download_url>http://download1523.mediafire.com/o7s724rw67jg/8yff34ccx57ho17/JKT.zip
+			</download_url>
 		</urls>
 
 		<tags>

@@ -1,9 +1,6 @@
 Bug log and Things to do
 
-add how to play for game stuff
-add uploads for stuff
-projecttemplate js "" to ''
-
 finish kanji testinator
 add youtube vid for JKT
-upload JKT to github
+
+possibly add prezi to bazinga z
