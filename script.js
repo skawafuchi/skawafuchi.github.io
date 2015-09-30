@@ -75,6 +75,13 @@ function loadProject(projectName) {
 					$("#note").html('<div class="alert alert-danger" role="alert">' + projectData.find("note").text()+'</div>');
 				}
 				
+				
+				if(projectData.find("youtube_url").length){
+					$("#media").append('<iframe width="100%" height="315" src="http://www.youtube.com/embed/' +projectData.find("youtube_url").text()  + '" style="margin-top:20px; margin-bottom:10px;"></iframe><br>');
+				}else{
+					$("#media").append('<img class="project-image" src="' +projectData.find("urls").find("thumbnail_url").text()+ '" style="margin-top:20px; margin-bottom:10px; width:100%; height: 315px;">');
+				}
+				
 				if (projectData.find("github_url").length){
 					$("#links").append('<a href="' + projectData.find("github_url").text() + '" class="label label-info"><span class="glyphicon glyphicon-pencil"></span>Code on Github</a>');
 				}
@@ -88,12 +95,6 @@ function loadProject(projectName) {
 				projectData.find('tag[type="technology"]').each(function(){
 					$("#technologies").append($(this).text() + "<br>");
 				});
-				
-				if(projectData.find("youtube_url").length){
-					$("#media").append('<iframe width="100%" height="315" src="http://www.youtube.com/embed/' +projectData.find("youtube_url").text()  + '" style="margin-top:20px; margin-bottom:10px;"></iframe><br>');
-				}else{
-					$("#media").append('<img class="project-image" src="' +projectData.find("urls").find("thumbnail_url").text()+ '" style="margin-top:20px; margin-bottom:10px; width:100%; height: 315px;">');
-				}
 
 			}
 		});
