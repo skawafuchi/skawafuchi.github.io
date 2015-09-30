@@ -18,9 +18,6 @@ body {
 .body-information {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.7);
-	display: inline;
-	position: absolute;
-	margin-bottom:30px;
 }
 
 .navbar {
