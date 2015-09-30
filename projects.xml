@@ -3,9 +3,8 @@
 
 	<project name="JKT">
 		<name>JKT</name>
-		<short_description>Game designed and created for students studying
-			Japanese. Flexibility was kept in mind so they could create their own
-			vocabulary lists to load into the game
+		<short_description> Typing game designed and created for students
+			studying Japanese.
 		</short_description>
 		<full_description>Game designed and created for students studying
 			Japanese Kanji. Flexibility was kept in mind so they could create
@@ -157,7 +156,7 @@
 	<project name="Guardians of the Arena">
 		<name>Guardians of the Arena</name>
 		<short_description>Networked turn-based strategy game developed over
-			two quarters at UCI. Was a finalist at the 2015 IEEE GameSig Showcase
+			two quarters at UCI.
 		</short_description>
 		<full_description>Networked turn-based strategy game developed over
 			two quarters at UCI. Worked together and discussed various aspects of
@@ -258,7 +257,7 @@
 	<project name="This Website!">
 		<name>This Website!</name>
 		<short_description>Website created to link to and display all my
-			projects as well as learn some new languages
+			projects.
 		</short_description>
 		<full_description>Website created to showcase various projects that I
 			have completed over the years. The website attempts to be flexible
