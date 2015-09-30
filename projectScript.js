@@ -57,14 +57,14 @@ function printErrorMsg(XMLHttpRequest, errorMessage, errorThrown) {
 }
 
 function insertProjects(data) {
-	var newHTML = "<div class =\"row\">";
+	var newHTML = "<div class =\"row\"><div class=\"container\">";
 	var project = $(data).find("project");
 	var projectsAdded = 0;
 	for (i = 0; i < project.length; i++) {
 		if (($.inArray("Game", options) !== -1 && project.eq(i).find('tag[type="filter"]').text() === "Game") ||
 				($.inArray("Website", options) !== -1 && project.eq(i).find('tag[type="filter"]').text() === "Website")) {
 			if (projectsAdded % 3 == 0 && i != 0) {
-				newHTML += "</div><div class =\"row\">";
+				newHTML += "</div></div><div class =\"row\"><div class=\"container\">";
 			}
 			newHTML += "<div class=\"col-md-4\">";
 			newHTML += "<h3>" + project.eq(i).find("name").text() + "</h3>";
