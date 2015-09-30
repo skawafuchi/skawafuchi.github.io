@@ -68,9 +68,9 @@ function loadProject(projectName) {
 				});
 				
 				if(projectData.find("youtube_url").length){
-					$("#media").append('<iframe width="100%" height="315" src="http://www.youtube.com/embed/' +projectData.find("youtube_url").text()  + '" style="margin-top:20px;"></iframe><br>');
+					$("#media").append('<iframe width="100%" height="315" src="http://www.youtube.com/embed/' +projectData.find("youtube_url").text()  + '" style="margin-top:20px; margin-bottom:10px;"></iframe><br>');
 				}else{
-					$("#media").append('<img class="project-image" src="' +projectData.find("urls").find("thumbnail_url").text()+ '" style="margin-top:20px; width:100%; height: 315px;">');
+					$("#media").append('<img class="project-image" src="' +projectData.find("urls").find("thumbnail_url").text()+ '" style="margin-top:20px; margin-bottom:10px; width:100%; height: 315px;">');
 				}
 
 			}
