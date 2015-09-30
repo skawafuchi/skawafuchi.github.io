@@ -25,6 +25,7 @@ var main = function() {
 };
 
 function loadProject(projectName) {
+	$("#template").load("projectTemplate.html",function(){
 		$.ajax({
 			url : "projects.xml",
 			dataType : "xml",
@@ -74,7 +75,9 @@ function loadProject(projectName) {
 
 			}
 		});
-	}
+	});
+		
+}
 
 
 $(document).ready(main);
