@@ -40,6 +40,28 @@ function loadProject(projectName) {
 				}												
 	
 				$("#project_description").text(projectData.find("full_description").text());
+				
+				
+				if (projectData.find("directions").length){
+					
+						if (projectData.find("setup").length){
+							$("#directions").append('<h3>Setup</h3><p>' + projectData.find("setup").text() + '</p>');
+						}
+						if (projectData.find("objective").length){
+							$("#directions").append('<h3>Objective</h3><p>' + projectData.find("objective").text() + '</p>');
+						}
+						if (projectData.find("how_to_play").length){
+							$("#directions").append('<h3>How To Play</h3><p>' + projectData.find("how_to_play").text() + '</p>');
+						}
+						if (projectData.find("hotkeys").length){
+							$("#directions").append('<h3>Hotkeys</h3><p><table class="table" id="hotkey_table"><thead><tr><th>Hotkey</th><th>Description</th></tr></thead><tbody id="hotkey_rows"></tbody></table>');
+							var temp = "";
+							projectData.find('hotkey').each(function(){
+								$("#hotkey_rows").append('<tr><td>' + $(this).find("value").text() + '</td><td>' + $(this).find("description").text() + '</td></tr>');
+							});
+							
+						}
+				}
 
 				projectData.find("member").each(function(){
 					$("#team_members").append('<div style="font-size:18px;">' + $(this).text() + "</div>");
@@ -60,7 +82,7 @@ function loadProject(projectName) {
 					$("#links").append('<a href="' + projectData.find("download_url").text() + '" class="label label-info"><span class="glyphicon glyphicon-download"></span>Download Project</a>');
 				}
 				if (projectData.find("play_url").length){
-					$("#links").append('<a href="' + projectData.find("play_url").text() + '" class="label label-info"><span class="glyphicon glyphicon-screenshot"></span>Play Online!</a>');
+					$("#links").append('<a href="' + projectData.find("play_url").text() + '" class="label label-info"><span class="glyphicon glyphicon-screenshot"></span>View Online!</a>');
 				}
 
 				projectData.find('tag[type="technology"]').each(function(){

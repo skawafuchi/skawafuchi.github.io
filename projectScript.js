@@ -39,17 +39,7 @@ function addInteractions(){
 		$(this).find('.caption').slideDown(200);
 	}, function() {
 		$(this).find('.caption').slideUp(200);
-	});
-
-	// Phone transitions
-	$(".thumbnail").on("tap", function() {
-		$(this).find('.caption').slideDown(200);
-
-	});
-
-	$(".caption").on("tap", function() {
-		$(this).slideUp(200);
-	});
+	});	
 }
 
 function printErrorMsg(XMLHttpRequest, errorMessage, errorThrown) {

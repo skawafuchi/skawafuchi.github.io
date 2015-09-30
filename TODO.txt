@@ -1,6 +1,9 @@
 Bug log and Things to do
 
-test GOTA server and get it running
+add how to play for game stuff
+add uploads for stuff
+projecttemplate js "" to ''
+
+finish kanji testinator
 add youtube vid for JKT
 upload JKT to github
-add how to play for game stuff

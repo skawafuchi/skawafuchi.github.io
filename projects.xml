@@ -2,7 +2,7 @@
 <projects_list>
 
 	<project name="JKT">
-		<name>JKT</name>
+		<name>JKT (Japanese Kanji Testinator)</name>
 		<short_description> Typing game designed and created for students
 			studying Japanese.
 		</short_description>
@@ -12,6 +12,60 @@
 			from three different difficulty levels, and the game can be used for
 			other languages as well.
 		</full_description>
+		<directions>
+			<setup>Download the folder from the link. Extract the contents
+				anywhere you like. Run the JKT3000 executable Jar file, and then
+				click on File->Load Word Set then select any file you like. A couple
+				of example vocabulary sets
+				have been provided in a folder named
+				Example Vocabulary Sets.
+			</setup>
+			<objective>Type as many Japanese vocabulary words correctly as
+				possible before running out of lives!
+			</objective>
+			<how_to_play>
+				After you have loaded a vocabulary set, press the space
+				bar and start
+				typing the romaji (or other) as the words float down
+				the screen. If
+				you have missed a word, the answer will appear along
+				the bottom.
+			</how_to_play>
+			<hotkeys>
+				<hotkey>
+					<value>
+						+
+					</value>
+					<description>
+						Increase Volume
+					</description>
+				</hotkey>
+				<hotkey>
+					<value>
+						-
+					</value>
+					<description>
+						Decrease Volume
+					</description>
+				</hotkey>
+				<hotkey>
+					<value>
+						ctrl+m
+					</value>
+					<description>
+						Toggle Music
+					</description>
+				</hotkey>
+				<hotkey>
+					<value>
+						esc
+					</value>
+					<description>
+						Stop Game
+					</description>
+				</hotkey>
+			</hotkeys>
+		</directions>
 		<members>
 			<member role="Designer and Programmer">Steven Kawafuchi</member>
 		</members>
@@ -80,8 +134,6 @@
 		<urls>
 			<project_url>chirpper.html</project_url>
 			<github_url>https://github.com/MsRann/Chirpper</github_url>
-			<download_url>https://github.com/MsRann/Chirpper/archive/master.zip
-			</download_url>
 			<play_url>play/Chirpper.html</play_url>
 			<picture_url>images/Chirpper Screenshot.png</picture_url>
 			<thumbnail_url>images/thumbnails/Chirpper Thumbnail.png
@@ -135,8 +187,6 @@
 			<project_url>bubblebubblepoppop.html</project_url>
 			<github_url>https://github.com/skawafuchi/Bubble-Bubble-Pop-Pop
 			</github_url>
-			<download_url>https://github.com/skawafuchi/Bubble-Bubble-Pop-Pop/archive/master.zip
-			</download_url>
 			<picture_url>images/Bubble Bubble Pop Pop Screenshot.png
 			</picture_url>
 			<thumbnail_url>images/thumbnails/Bubble Bubble Pop Pop Thumbnail.png
@@ -152,7 +202,6 @@
 		</tags>
 	</project>
 
-
 	<project name="Guardians of the Arena">
 		<name>Guardians of the Arena</name>
 		<short_description>Networked turn-based strategy game developed over
@@ -166,6 +215,59 @@
 			feedback to improve the game. Guardians of the Arena was a finalist
 			at the 2015 IEEE GameSig Showcase.
 		</full_description>
+		<directions>
+			<setup>Download the client and server from the link and extract it to
+				a desired location. In the GoA Server folder, run the Guardians of
+				the Arena application file. After the server is running, in the GoA
+				Client file run the GoAClient application file. Input your local IP
+				address into the "Set IP:" text box and login!
+			</setup>
+			<objective>Kill the enemy Guardian and then Soulstone!</objective>
+			<how_to_play>Customize how your units enter battle in the setup
+				boards menu. Once you are happy with the positioning of your units,
+				test them out aganist the AI or another player! Click on a unit to
+				select it and click on any of the green squares to move to it, or if
+				you are in attack mode (which can be switched to with the panel in
+				the bottom right) click on any of the orange tiles to attack it.
+				Units level up as they deal damage and gain new abilities. You can
+				attack and move as many times as your mana will allow. Kill the
+				enemy soulstone to win!
+			</how_to_play>
+			<hotkeys>
+				<hotkey>
+					<value>
+						F10
+					</value>
+					<description>
+						Toggle Options Menu
+					</description>
+				</hotkey>
+				<hotkey>
+					<value>
+						v
+					</value>
+					<description>
+						Move Mode
+					</description>
+				</hotkey>
+				<hotkey>
+					<value>
+						a
+					</value>
+					<description>
+						Attack Mode
+					</description>
+				</hotkey>
+				<hotkey>
+					<value>
+						e
+					</value>
+					<description>
+						End Turn
+					</description>
+				</hotkey>
+			</hotkeys>
+		</directions>
 
 		<members>
 			<member role="Designer and Client-Side Programmer">Steven Kawafuchi</member>
@@ -191,7 +293,7 @@
 		<urls>
 			<project_url>gota.html</project_url>
 			<github_url>https://github.com/JordanLingHua/projectH</github_url>
-			<download_url>https://github.com/JordanLingHua/projectH/archive/master.zip
+			<download_url>http://download945.mediafire.com/3x9oqab758rg/5xk98vmr324vf8q/GoA.zip
 			</download_url>
 			<picture_url>images/GotA Screenshot.png</picture_url>
 			<thumbnail_url>images/thumbnails/GotA Thumbnail.png
@@ -209,7 +311,8 @@
 
 	<project name="Bazinga Z">
 		<name>Bazinga Z</name>
-		<short_description>Mobile shooter game that was designed and ranked top of
+		<short_description>Mobile shooter game that was designed and ranked
+			top of
 			the class.
 		</short_description>
 		<full_description>A mobile 2D Side-Scrolling Shooter and Tap and Swipe
@@ -286,8 +389,6 @@
 		<urls>
 			<github_url>https://github.com/skawafuchi/skawafuchi.github.io
 			</github_url>
-			<download_url>https://github.com/skawafuchi/skawafuchi.github.io/archive/master.zip
-			</download_url>
 			<project_url>thiswebsite.html</project_url>
 			<picture_url>images/Website Screenshot.pngL</picture_url>
 			<thumbnail_url>images/thumbnails/Website Thumbnail.png

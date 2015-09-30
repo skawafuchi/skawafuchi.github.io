@@ -42,7 +42,6 @@ body {
 	float: auto;
 }
 
-
 .carousel {
 	height: 300px;
 	margin-bottom: 20px;
@@ -77,8 +76,6 @@ body {
 	overflow:hidden;
 }
 
-
-
 .thumbnail {
     position:relative;
     overflow:hidden;
@@ -106,7 +103,8 @@ body {
 
 .caption p{
 	position:relative;
-	top: 25%;
+	top: 50%;
+	transform:translateY(-50%);
 }
 
 /*Removes picture when screen width gets too narrow*/
