@@ -1,0 +1,6 @@
+Bug log and Things to do
+
+test GOTA server and get it running
+add youtube vid for JKT
+upload JKT to github
+add how to play for game stuff
