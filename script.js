@@ -93,7 +93,8 @@ function loadProject(projectName) {
 				}
 
 				projectData.find('tag[type="technology"]').each(function(){
-					$("#technologies").append($(this).text() + "<br>");
+					$("#technologies").append('<a href="' + $(this).find('wiki_link').text()+ '"><img src="images/icons/Wikipedia Icon.png"> </a> <a href="' +
+							$(this).find('direct_link').text() + '">' + $(this).find('value').text()+ '</a><br>');
 				});
 
 			}

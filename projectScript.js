@@ -51,8 +51,8 @@ function insertProjects(data) {
 	var project = $(data).find("project");
 	var projectsAdded = 0;
 	for (i = 0; i < project.length; i++) {
-		if (($.inArray("Game", options) !== -1 && project.eq(i).find('tag[type="filter"]').text() === "Game") ||
-				($.inArray("Website", options) !== -1 && project.eq(i).find('tag[type="filter"]').text() === "Website")) {
+		if (($.inArray("Game", options) !== -1 && project.eq(i).find('tag[type="filter"]').find('value').text() === "Game") ||
+				($.inArray("Website", options) !== -1 && project.eq(i).find('tag[type="filter"]').find('value').text() === "Website")) {
 			if (projectsAdded % 3 == 0 && i != 0) {
 				newHTML += '</div></div><div class ="row"><div class="container">';
 			}

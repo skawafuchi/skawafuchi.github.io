@@ -12,7 +12,8 @@
 			from three different difficulty levels, and the game can be used for
 			other languages as well.
 		</full_description>
-		<note>Currently in development and has a few bugs as well as some features missing.
+		<note>Currently in development and has a few bugs as well as some
+			features missing.
 		</note>
 		<directions>
 			<setup>Download the folder from the link. Extract the contents
@@ -96,9 +97,21 @@
 		</urls>
 
 		<tags>
-			<tag type="filter">Game</tag>
-			<tag type="technology">Java</tag>
-			<tag type="technology">Eclipse</tag>
+			<tag type="filter">
+				<value>Game</value>
+			</tag>
+			<tag type="technology">
+				<value>Java</value>
+				<direct_link>https://java.com/en/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Java_(programming_language)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Eclipse</value>
+				<direct_link>https://eclipse.org/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Eclipse_(software)
+				</wiki_link>
+			</tag>
 		</tags>
 	</project>
 
@@ -143,14 +156,49 @@
 			</thumbnail_url>
 		</urls>
 		<tags>
-			<tag type="filter">Website</tag>
-			<tag type="technology">C#</tag>
-			<tag type="technology">Unity 3D</tag>
-			<tag type="technology">Java</tag>
-			<tag type="technology">PostgreSQL</tag>
-			<tag type="technology">Heroku</tag>
-			<tag type="technology">AWS S3</tag>
-			<tag type="technology">Eclipse</tag>
+			<tag type="filter">
+				<value>Website</value>
+			</tag>
+			<tag type="technology">
+				<value>C#</value>
+				<direct_link>https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Unity 3D</value>
+				<direct_link>http://unity3d.com/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Unity_(game_engine)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Java</value>
+				<direct_link>https://java.com/en/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Java_(programming_language)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>PostgreSQL</value>
+				<direct_link>http://www.postgresql.org/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/PostgreSQL</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Heroku</value>
+				<direct_link>https://www.heroku.com/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Heroku</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>AWS S3</value>
+				<direct_link>https://aws.amazon.com/s3/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Amazon_S3</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Eclipse</value>
+				<direct_link>https://eclipse.org/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Eclipse_(software)
+				</wiki_link>
+			</tag>
 		</tags>
 	</project>
 
@@ -198,10 +246,33 @@
 		</urls>
 
 		<tags>
-			<tag type="filter">Game</tag>
-			<tag type="technology">CCV</tag>
-			<tag type="technology">Eclipse</tag>
-			<tag type="technology">MT4J</tag>
+			<tag type="filter">
+				<value>Game</value>
+			</tag>
+			<tag type="technology">
+				<value>CCV</value>
+				<direct_link>http://ccv.nuigroup.com/#home</direct_link>
+				<wiki_link>http://wiki.nuigroup.com/Community_Core_Vision
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Java</value>
+				<direct_link>https://java.com/en/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Java_(programming_language)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Eclipse</value>
+				<direct_link>https://eclipse.org/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Eclipse_(software)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>MT4J</value>
+				<direct_link>https://code.google.com/p/mt4j/</direct_link>
+				<wiki_link>https://de.wikipedia.org/wiki/Multi-touch_for_Java
+				</wiki_link>
+			</tag>
 		</tags>
 	</project>
 
@@ -305,10 +376,29 @@
 		</urls>
 
 		<tags>
-			<tag type="filter">Game</tag>
-			<tag type="technology">C#</tag>
-			<tag type="technology">Unity 3D</tag>
-			<tag type="technology">Visual Studio</tag>
+			<tag type="filter">
+				<value>Game</value>
+			</tag>
+			<tag type="technology">
+				<value>C#</value>
+				<direct_link>https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Unity 3D</value>
+				<direct_link>http://unity3d.com/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Unity_(game_engine)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Visual Studio</value>
+				<direct_link>https://msdn.microsoft.com/en-us/vstudio/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Microsoft_Visual_Studio
+				</wiki_link>
+			</tag>
 		</tags>
 	</project>
 
@@ -354,9 +444,23 @@
 			</thumbnail_url>
 		</urls>
 		<tags>
-			<tag type="filter">Game</tag>
-			<tag type="technology">Google Docs</tag>
-			<tag type="technology">Prezi</tag>
+			<tag type="filter">
+				<value>Game</value>
+			</tag>
+			<tag type="technology">
+				<value>Google Docs</value>
+				<direct_link>https://www.google.com/docs/about/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Google_Docs,_Sheets,_and_Slides
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Prezi</value>
+				<direct_link>https://prezi.com/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Prezi
+				</wiki_link>
+			</tag>
 		</tags>
 	</project>
 
@@ -398,13 +502,57 @@
 			</thumbnail_url>
 		</urls>
 		<tags>
-			<tag type="filter">Website</tag>
-			<tag type="technology">Javascript</tag>
-			<tag type="technology">JQuery</tag>
-			<tag type="technology">Bootstrap</tag>
-			<tag type="technology">XML</tag>
-			<tag type="technology">CSS</tag>
-			<tag type="technology">HTML</tag>
+			<tag type="filter">
+				<value>Website</value>
+			</tag>
+			<tag type="technology">
+				<value>Javscript</value>
+				<direct_link>https://www.javascript.com/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/JavaScript
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>JQuery</value>
+				<direct_link>https://jquery.com/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/JQuery
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Bootstrap</value>
+				<direct_link>http://getbootstrap.com/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>XML</value>
+				<direct_link>http://www.xml.com/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/XML
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>CSS</value>
+				<direct_link>http://www.w3.org/Style/CSS/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>HTML</value>
+				<direct_link>http://www.w3.org/html/
+				</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/HTML
+				</wiki_link>
+			</tag>
+			<tag type="technology">
+				<value>Eclipse</value>
+				<direct_link>https://eclipse.org/</direct_link>
+				<wiki_link>https://en.wikipedia.org/wiki/Eclipse_(software)
+				</wiki_link>
+			</tag>
 		</tags>
 	</project>
 
