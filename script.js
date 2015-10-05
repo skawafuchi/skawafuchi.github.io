@@ -31,6 +31,12 @@ function addFunctionality(){
 
 function showMore(){
 	$('#directions').toggle();
+	if ($('#show_more_button').text() === "See more"){
+		$('#show_more_button').html("See less");
+	}else{
+		$('#show_more_button').html("See more");
+	}
+	
 	
 }
 
@@ -53,7 +59,7 @@ function loadProject(projectName) {
 				
 				
 				if (projectData.find("directions").length){
-						$("#project_description").append('<button type="button" class="btn btn-link" onclick="showMore()">See more</button>');
+						$("#project_description").append('<button type="button" id="show_more_button" class="btn btn-link" onclick="showMore()">See more</button>');
 						if (projectData.find("setup").length){
 							$("#directions").append('<h3>Setup</h3><p>' + projectData.find("setup").text() + '</p>');
 						}
