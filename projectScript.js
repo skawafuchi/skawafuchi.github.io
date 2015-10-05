@@ -23,9 +23,6 @@ var main = function() {
 				}
 
 				$(event.target).blur();
-				console.log(options);
-				console.log("Game is in the array is: "+ ($.inArray("Game", options) === -1? "false":"true"));
-				console.log("Website is in the array is: "+ ($.inArray("Website", options) === -1?"false":"true"));
 				loadProjects();
 				addInteractions();
 				return false;

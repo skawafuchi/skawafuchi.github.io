@@ -340,6 +340,14 @@
 						End Turn
 					</description>
 				</hotkey>
+				<hotkey>
+					<value>
+						esc
+					</value>
+					<description>
+						Deselect Unit
+					</description>
+				</hotkey>
 			</hotkeys>
 		</directions>
 

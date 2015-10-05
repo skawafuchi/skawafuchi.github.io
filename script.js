@@ -29,6 +29,11 @@ function addFunctionality(){
 	});
 }
 
+function showMore(){
+	$('#directions').toggle();
+	
+}
+
 function loadProject(projectName) {
 	$("#template").load("projectTemplate.html",function(){
 		$.ajax({
@@ -48,7 +53,7 @@ function loadProject(projectName) {
 				
 				
 				if (projectData.find("directions").length){
-					
+						$("#project_description").append('<button type="button" class="btn btn-link" onclick="showMore()">See more</button>');
 						if (projectData.find("setup").length){
 							$("#directions").append('<h3>Setup</h3><p>' + projectData.find("setup").text() + '</p>');
 						}
