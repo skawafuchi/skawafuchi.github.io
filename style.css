@@ -18,6 +18,11 @@ body {
 .body-information {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.7);
+	padding-bottom:20px;
+}
+
+.body-information h1{
+	text-align:center;
 }
 
 .navbar {
