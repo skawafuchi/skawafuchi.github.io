@@ -1,4 +1,9 @@
 var main = function() {
+	addFunctionality();
+};
+
+function addFunctionality(){
+	
 
 	// makes pictures in carousel clickable links
 	$(".item").click(function() {
@@ -16,13 +21,13 @@ var main = function() {
 	$(".icon").hover(function() {
 		$(this).animate({
 			opacity : '1.0'
-		}, 200);
+		}, 100);
 	}, function() {
 		$(this).animate({
 			opacity : '0.7'
-		});
+		},100);
 	});
-};
+}
 
 function loadProject(projectName) {
 	$("#template").load("projectTemplate.html",function(){
@@ -99,8 +104,8 @@ function loadProject(projectName) {
 
 			}
 		});
-	});
-		
+		addFunctionality();});
+
 }
 
 
