@@ -61,6 +61,14 @@
 				</hotkey>
 				<hotkey>
 					<value>
+						shift+backspace
+					</value>
+					<description>
+						Clear Typing Buffer 
+					</description>
+				</hotkey>
+				<hotkey>
+					<value>
 						esc
 					</value>
 					<description>
