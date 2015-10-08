@@ -12,8 +12,8 @@
 			from three different difficulty levels, and the game can be used for
 			other languages as well.
 		</full_description>
-		<note>Currently in development and has a few bugs as well as some
-			features missing.
+		<note>Currently in development and has bugs. There are also features
+			yet to be developed.
 		</note>
 		<directions>
 			<setup>Download the folder from the link. Extract the contents
@@ -37,22 +37,6 @@
 			<hotkeys>
 				<hotkey>
 					<value>
-						+
-					</value>
-					<description>
-						Increase Volume
-					</description>
-				</hotkey>
-				<hotkey>
-					<value>
-						-
-					</value>
-					<description>
-						Decrease Volume
-					</description>
-				</hotkey>
-				<hotkey>
-					<value>
 						ctrl+m
 					</value>
 					<description>
@@ -64,7 +48,7 @@
 						shift+backspace
 					</value>
 					<description>
-						Clear Typing Buffer 
+						Clear Typing Buffer
 					</description>
 				</hotkey>
 				<hotkey>
