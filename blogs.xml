@@ -1,33 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blog>
 	<blog_post>
+	<blog_num>1</blog_num>
 		<title>Test Title</title>
-		<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-			do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-			enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-			ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-			reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-			pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-			culpa qui officia deserunt mollit anim id est laborum.
-			SUBTITLE1
-			Lorem
-			ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-			veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-			ea commodo consequat. Duis aute irure dolor in reprehenderit in
-			voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-			officia deserunt mollit anim id est laborum.
-			SUBTITLE 2
-			Lorem ipsum
-			dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-			commodo consequat. Duis aute irure dolor in reprehenderit in
-			voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-			officia deserunt mollit anim id est laborum.
-		</content>
+		<date>
+			<day>DAY</day>
+			<month>MONTH</month>
+			<year>YEAR</year>
+		</date>
+		<article>
+			<section>
+				<subtitle type="t1">Test Subtitle</subtitle>
+				<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+					culpa qui officia deserunt mollit anim id est laborum
+				</content>
+				<subtitle type="t2">Test Subtitle</subtitle>
+				<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+					culpa qui officia deserunt mollit anim id est laborum
+				</content>
+				<subtitle type="t3">Test Subtitle</subtitle>
+				<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+					culpa qui officia deserunt mollit anim id est laborum
+				</content>
+			</section>
+		</article>
 		<tags>
 			<tag>Tag 1</tag>
 			<tag>Tag 2</tag>
