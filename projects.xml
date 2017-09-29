@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects_list>
 
+<project name="StarcraftPuzzles">
+		<name>Starcraft Puzzles</name>
+		<short_description>A Starcraft II Arcade Game
+		</short_description>
+		<full_description>A small 10 level game that was developed in the 
+		Starcraft 2 Map Editor. It is heavily inspired by the Blizzard created
+		Arcade map named "Starcraft Master". It was created to show some fun and
+		interesting interactions between units that were introduced in the
+		Legacy of the Void and Heart of the Swarm expansions.
+		</full_description>
+		<members>
+			<member role="Designer and Programmer">Steven Kawafuchi</member>
+		</members>
+
+		<time_frame>
+			<start_date>
+				<day>DAY</day>
+				<month>January</month>
+				<year>2016</year>
+			</start_date>
+			<end_date>
+				<day>DAY</day>
+				<month>September</month>
+				<year>2017</year>
+			</end_date>
+		</time_frame>
+		<urls>
+			<project_url>starcraftpuzzles.html</project_url>
+			<picture_url>images/Chirpper Screenshot.png</picture_url>
+			<thumbnail_url>images/thumbnails/Chirpper Thumbnail.png
+			</thumbnail_url>
+		</urls>
+		<tags>
+			<tag type="filter">
+				<value>Game</value>
+			</tag>
+			<tag type="technology">
+				<value>Starcraft 2 Map Editor</value>
+				<wiki_link>http://starcraft.wikia.com/wiki/Galaxy_Map_Editor
+				</wiki_link>
+			</tag>
+		</tags>
+	</project>
+
+
+
 	<project name="JKT">
 		<name>JKT (Japanese Kanji Testinator)</name>
 		<short_description> Typing game designed and created for students
