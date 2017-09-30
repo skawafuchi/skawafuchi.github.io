@@ -14,6 +14,8 @@
 		because of the consistent balance changes for multiplayer. I may eventually
 		add more levels in the future.
 		</full_description>
+		<note type="alert">This game is currently available to play for free in the Starcraft II Arcade!
+		</note>
 		<members>
 			<member role="Designer and Programmer">Steven Kawafuchi</member>
 		</members>
@@ -272,7 +274,7 @@
 			from three different difficulty levels, and the game can be used for
 			other languages as well.
 		</full_description>
-		<note>This project was stopped in mid development for others, and I do
+		<note type="warning">This project was stopped in mid development for others, and I do
 		not think I will continue updating this one.
 		</note>
 		<directions>
