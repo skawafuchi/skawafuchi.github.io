@@ -335,8 +335,8 @@
 			</start_date>
 			<end_date>
 				<day>DAY</day>
-				<month>On</month>
-				<year>Going</year>
+				<month></month>
+				<year>2015</year>
 			</end_date>
 		</time_frame>
 
