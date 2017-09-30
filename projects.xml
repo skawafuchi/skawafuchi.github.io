@@ -136,6 +136,7 @@
 				the widow mine's attack. The player wins by destroying all of the enemy drones with the 
 				widow mine before the timer expires.
 				</level_description>
+				<level_notes>
 				This level was originally very similar to the Starcraft Master level where the player had 
 				to burrow zerglings to ambush a pack of patrolling marines. In my original concept the player 
 				had a widow mine and the player had to burrow near a pack of patrolling banelings and target 
@@ -144,7 +145,6 @@
 				had just gotten a dropship into the enemy base, and the enemy was trying to move all of their 
 				workers to safety. In the newer version of the game I also got to show the player that they can 
 				delay the widow mine's attack by switching between targets.
-				<level_notes>
 				</level_notes>
 			</level>
 			<level>
