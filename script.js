@@ -88,11 +88,11 @@ function loadProject(projectName) {
 				});
 				
 				if (projectData.find("note").length){
-					console.log($(this).attr("type"));
-					if ($(this).attr("type") == 'warning'){
+					console.log($(this).attr("type").value);
+					console.log($($this).attr("type"));
+					if ($(this).attr("type").value == 'warning'){
 						$("#note").html('<div class="alert alert-danger" role="alert">' + projectData.find("note").text()+'</div>');
-					}else if ($(this).attr("type") == 'alert'){
-						console
+					}else if ($(this).attr("type").value == 'alert'){
 						$("#note").html('<div class="alert alert-success" role="alert">' + projectData.find("note").text()+'</div>');
 					}
 				}
