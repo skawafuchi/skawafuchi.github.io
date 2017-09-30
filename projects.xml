@@ -32,7 +32,7 @@
 				<level_title>Stage 1</level_title>
 				<level_image>
 				https://i.imgur.com/LsWLdOh.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The first stage was set up to make the player dislodge a projectile that is	created by widow mines. 
 				The way to beat the level is to create a building using the worker the player is given and then
@@ -52,7 +52,7 @@
 				<level_title>Stage 2</level_title>
 				<level_image>
 				https://i.imgur.com/OsE2ENJ.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The second stage was also set up to make the player dislodge more projectiles from the widow mine.
 				This time the player has to traverse a small path and use a stalker's blink to avoid the damage to
@@ -71,7 +71,7 @@
 				<level_title>Stage 3</level_title>
 				<level_image>
 				https://i.imgur.com/oJIakTE.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The third stage was made to show the player that they can use reapers' grenades to make their 
 				units jump a little to get over buildings. The way the player beats it is by positioning the 
@@ -91,7 +91,7 @@
 				<level_title>Stage 4</level_title>
 				<level_image>
 				https://i.imgur.com/9LutMiW.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The fourth stage was created to show the player that they can move around with zealots by 
 				charging their own units. The player wins by traversing a path that is under siege by a 
@@ -112,7 +112,7 @@
 				<level_title>Stage 5</level_title>
 				<level_image>
 				https://i.imgur.com/s5BDBsF.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The fifth stage was developed to show the player that they can destroy a widow mine with 
 				an oracle, even though the widow mine can one-shot it. The player wins by constantly 
@@ -130,7 +130,7 @@
 				<level_title>Stage 6</level_title>
 				<level_image>
 				https://i.imgur.com/dv6KKH6.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The sixth level was developed to show the player that they can target specific units with 
 				the widow mine's attack. The player wins by destroying all of the enemy drones with the 
@@ -151,7 +151,7 @@
 				<level_title>Stage 7</level_title>
 				<level_image>
 				https://i.imgur.com/oXmYvt0.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The seventh level was designed to show the player that they can block enemies by using 
 				changelings. The player wins by blocking a ramp with the changelings and then killing the 
@@ -171,7 +171,7 @@
 				<level_title>Stage 8</level_title>
 				<level_image>
 				https://i.imgur.com/7L3sCQ0.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The eighth stage was designed to show the player that they can block ramps using fungal
 				growths to get an incredibly favorable engagement. The player wins by using fungal 
@@ -192,7 +192,7 @@
 				<level_title>Stage 9</level_title>
 				<level_image>
 				https://i.imgur.com/LdBmYiy.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The ninth level was designed to show the player that hatcheries have creep underneath
 				them when they are being built, so the player can use it to build buildings in desperate
@@ -216,7 +216,7 @@
 				<level_title>Stage 10</level_title>
 				<level_image>
 				https://i.imgur.com/ffohY8t.jpg
-				<level_image>
+				</level_image>
 				<level_description>
 				The tenth level was designed to show the player that they can avoid damage from the 
 				lurker by moving their units as the lurker attacks. The player wins by carefully microing 
