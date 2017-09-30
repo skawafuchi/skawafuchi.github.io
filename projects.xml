@@ -43,9 +43,9 @@
 				creating the game. The only major change that I made was changing the original objective from being
 				just avoiding the widow mine damage to making the player collect the remaining minerals from a 
 				mineral patch. I did this to make the objective slightly less clear so it would be a little more 
-				challenging, the level also felt too short when completing it the old way.
+				challenging. The level also felt too short when completing it the old way.
 				A couple of minor adjustments made were making the drone unburrow at the start for a little extra 
-				polish, and moving the worker down to avoid it being covered with the level text.
+				polish and moving the worker down to avoid it being covered with the level text.
 				</level_notes>
 			</level>
 			<level>
@@ -60,11 +60,11 @@
 				</level_description>
 				<level_notes>
 				The initial design for this level was pretty rough and was a straight path with a couple of mines 
-				that the player had to avoid. I also added a couple of arrows to ensure the player knew which way 
+				that the player had to avoid. I also had a couple of arrows to ensure the player knew which way 
 				to go, but eventually came up with the idea to use the lack of high ground vision to make the 
-				player go up a small spiral path. The version seen the second iteration as the first one was too 
-				big towards the middle and prevented the player from seeing where they were able to go, and if 
-				there was another widow mine they needed to avoid.
+				player go up a small spiral path. The version seen is the second iteration as the first one was too 
+				big towards the middle and prevented the player from seeing where they were able to go and widow 
+				mines they needed to avoid.
 				</level_notes>
 			</level>
 			<level>
@@ -81,10 +81,10 @@
 				<level_notes>
 				I don't believe there was much in terms of changing design and major adjustments to this level 
 				in particular. The more challenging parts were making sure the level reset properly so the 
-				player couldn't just kill off the buildings to get to the end, and adjusting the timer of the 
-				level to give the player enough time to do everything they needed to. I also added a bit more 
-				polish to the level by adding some SCVs for the NPC to show the player a practical scenario 
-				where this might be useful in a competitive game.
+				player couldn't just kill off the buildings to get to the end and adjusting the timer of the 
+				level to give the player enough time to complete it. I also added a bit more polish to the 
+				level by adding some SCVs for the NPC to show the player a practical scenario where this might
+				be useful in a competitive game.
 				</level_notes>
 			</level>
 			<level>
@@ -98,10 +98,10 @@
 				series of liberators.
 				</level_description>
 				<level_notes>The original level design was very bland as it was a very straight zig zag 
-				pattern that looked like a very blocky '2', but I eventually tiled it slightly to make 
+				pattern that looked like a very blocky '2', but I eventually tilted it slightly to make 
 				it look a little better. The beginning design also only had an end point that the player 
-				had to get to before a timer ran out. This was OK, but it was kind of boring and didn't 
-				feel very satisfying when you won. I then got the idea to use liberators to create a sense 
+				had to get to before a timer ran out. This was OK, but it was boring and didn't feel 
+				very satisfying when you won. I then got the idea to use liberators to create a sense 
 				of emergency to the player and removed the timer completely. I had some difficulties in 
 				terms of balancing because of how delicate the timings needed to be to ensure the player 
 				had to use the mechanic twice in order to clear the stage, but I'm pretty sure I got it 
@@ -122,7 +122,7 @@
 				There wasn't very much to this one in terms of difficulty settings or level design as well. 
 				One thing that I did do for all levels where the player has to deal with a widow mine is have
 				the widow mine unburrowed so the player can clearly see where it is before the level starts 
-				nstead of having to scour the entire map looking for a small dot on the ground. I also based 
+				instead of having to scour the entire map looking for a small dot on the ground. I also based 
 				this level off of a competitive game that I saw (Bomber vs herO StarLeague 2016)! 
 				</level_notes>
 			</level>
@@ -139,12 +139,12 @@
 				<level_notes>
 				This level was originally very similar to the Starcraft Master level where the player had 
 				to burrow zerglings to ambush a pack of patrolling marines. In my original concept the player 
-				had a widow mine and the player had to burrow near a pack of patrolling banelings and target 
-				the center one to ensure all of them died. This was OK as well, but it felt like it was over 
-				too quickly and wasn't very challenging. I eventually changed it to a scenario as if the player 
-				had just gotten a dropship into the enemy base, and the enemy was trying to move all of their 
-				workers to safety. In the newer version of the game I also got to show the player that they can 
-				delay the widow mine's attack by switching between targets.
+				had a widow mine and had to burrow near a pack of patrolling banelings and target the center 
+				one to ensure all of them died. This was OK as well, but it felt like it was over too quickly 
+				and wasn't very challenging. I eventually changed it to a scenario as if the player had just 
+				gotten a dropship into the enemy base, and the enemy was trying to move all of their workers 
+				to safety. In the newer version of the game I also got to show the player that they can delay 
+				the widow mine's attack by switching between targets.
 				</level_notes>
 			</level>
 			<level>
@@ -161,10 +161,10 @@
 				One of the main challenges was ensuring the NPC wasn't too smart and killed off the 
 				changelings so I created a very basic attack move command for the computer to ensure 
 				it would get blocked off. I also experimented and tried to drag the computer's units 
-				away with units but added variety to the computer's army to ensure that it wouldn't allow 
-				the player to win unintentionally. Additionally I ensured the players roaches on the left, 
+				away with my own but added variety to the computer's army to ensure that it wouldn't allow 
+				the player to win unintentionally. Additionally I ensured the player's roaches on the left, 
 				that were created to give the player sight and time to set up their blockade, couldn't 
-				move by surrounding it tightly.
+				move by surrounding them tightly.
 				</level_notes>
 			</level>
 			<level>
