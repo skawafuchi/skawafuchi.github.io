@@ -88,7 +88,6 @@ function loadProject(projectName) {
 				});
 				
 				if (projectData.find("note").length){
-					console.log(projectData.find("note").attr("type"));
 					if (projectData.find("note").attr("type") == 'warning'){
 						$("#note").html('<div class="alert alert-danger" role="alert">' + projectData.find("note").text()+'</div>');
 					}else if (projectData.find("note").attr("type") == 'alert'){
