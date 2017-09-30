@@ -381,7 +381,7 @@
 			all of the audio files and used a PostgreSQL database in order to
 			store user information.
 		</full_description>
-		<note>Server is disconnected from AWS S3 at the moment. No audio files
+		<note type="warning">Server is disconnected from AWS S3 at the moment. No audio files
 			will be stored or can be played.
 		</note>
 		<members>
