@@ -112,16 +112,6 @@ function loadProject(projectName) {
 					$("#technologies").append('<a href="' + $(this).find('wiki_link').text()+ '"><img src="images/icons/Wikipedia Icon.png"> </a> <a href="' +
 							$(this).find('direct_link').text() + '">' + $(this).find('value').text()+ '</a><br>');
 				});
-				
-				if(projectData.find("design").length){
-					projectData.find("level").each(function(){
-						$("design").append('<div class="row"><div class="col-md-5"><img class="level-image" src="' +projectData.find("level_image").text()+ '" style="margin-top:20px; margin-bottom:10px; width:100%; height: 315px;"></div>' + 
-						'<div class="col-md-7"><h3>' + projectData.find("level_title") + '</h3>' + 
-						'<p>' + projectData.find("level_description") + '</p>' + 
-						'<h3>Level Notes</h3>' + 
-						'<p>' + projectData.find("level_notes") + '</p></div></div>');
-					});					
-				}
 
 			}
 		});
