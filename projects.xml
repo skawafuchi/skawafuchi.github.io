@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects_list>
 
-<project name="StarcraftPuzzles">
-		<name>Starcraft Puzzles</name>
+<project name="SC2Puzzles">
+		<name>SC2 Puzzles</name>
 		<short_description>A Starcraft II Arcade Game
 		</short_description>
 		<full_description>A small 10 level game that was developed in the 
@@ -27,10 +27,221 @@
 				<year>2017</year>
 			</end_date>
 		</time_frame>
+		<design>
+			<level>
+				<level_title>Stage 1</level_title>
+				<level_image>
+				https://i.imgur.com/LsWLdOh.jpg
+				<level_image>
+				<level_description>
+				The first stage was set up to make the player dislodge a projectile that is	created by widow mines. 
+				The way to beat the level is to create a building using the worker the player is given and then
+				collecting the resources left on the level.
+				</level_description>
+				<level_notes>
+				This was the first level developed and there were very few adjustments made to the level throughout 
+				creating the game. The only major change that I made was changing the original objective from being
+				just avoiding the widow mine damage to making the player collect the remaining minerals from a 
+				mineral patch. I did this to make the objective slightly less clear so it would be a little more 
+				challenging, the level also felt too short when completing it the old way.
+				A couple of minor adjustments made were making the drone unburrow at the start for a little extra 
+				polish, and moving the worker down to avoid it being covered with the level text.
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 2</level_title>
+				<level_image>
+				https://i.imgur.com/OsE2ENJ.jpg
+				<level_image>
+				<level_description>
+				The second stage was also set up to make the player dislodge more projectiles from the widow mine.
+				This time the player has to traverse a small path and use a stalker's blink to avoid the damage to
+				get to the end.
+				</level_description>
+				<level_notes>
+				The initial design for this level was pretty rough and was a straight path with a couple of mines 
+				that the player had to avoid. I also added a couple of arrows to ensure the player knew which way 
+				to go, but eventually came up with the idea to use the lack of high ground vision to make the 
+				player go up a small spiral path. The version seen the second iteration as the first one was too 
+				big towards the middle and prevented the player from seeing where they were able to go, and if 
+				there was another widow mine they needed to avoid.
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 3</level_title>
+				<level_image>
+				https://i.imgur.com/oJIakTE.jpg
+				<level_image>
+				<level_description>
+				The third stage was made to show the player that they can use reapers' grenades to make their 
+				units jump a little to get over buildings. The way the player beats it is by positioning the 
+				two hellions they get close to the wall off and knock both of them over at the same time with 
+				the reaper's grenade.
+				</level_description>
+				<level_notes>
+				I don't believe there was much in terms of changing design and major adjustments to this level 
+				in particular. The more challenging parts were making sure the level reset properly so the 
+				player couldn't just kill off the buildings to get to the end, and adjusting the timer of the 
+				level to give the player enough time to do everything they needed to. I also added a bit more 
+				polish to the level by adding some SCVs for the NPC to show the player a practical scenario 
+				where this might be useful in a competitive game.
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 4</level_title>
+				<level_image>
+				https://i.imgur.com/9LutMiW.jpg
+				<level_image>
+				<level_description>
+				The fourth stage was created to show the player that they can move around with zealots by 
+				charging their own units. The player wins by traversing a path that is under siege by a 
+				series of liberators.
+				</level_description>
+				<level_notes>The original level design was very bland as it was a very straight zig zag 
+				pattern that looked like a very blocky '2', but I eventually tiled it slightly to make 
+				it look a little better. The beginning design also only had an end point that the player 
+				had to get to before a timer ran out. This was OK, but it was kind of boring and didn't 
+				feel very satisfying when you won. I then got the idea to use liberators to create a sense 
+				of emergency to the player and removed the timer completely. I had some difficulties in 
+				terms of balancing because of how delicate the timings needed to be to ensure the player 
+				had to use the mechanic twice in order to clear the stage, but I'm pretty sure I got it 
+				down haha.
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 5</level_title>
+				<level_image>
+				https://i.imgur.com/s5BDBsF.jpg
+				<level_image>
+				<level_description>
+				The fifth stage was developed to show the player that they can destroy a widow mine with 
+				an oracle, even though the widow mine can one-shot it. The player wins by constantly 
+				jutting in and out of the widow mine's range while dealing damage to it after revealing it.
+				</level_description>
+				<level_notes>
+				There wasn't very much to this one in terms of difficulty settings or level design as well. 
+				One thing that I did do for all levels where the player has to deal with a widow mine is have
+				the widow mine unburrowed so the player can clearly see where it is before the level starts 
+				nstead of having to scour the entire map looking for a small dot on the ground. I also based 
+				this level off of a competitive game that I saw (Bomber vs herO StarLeague 2016)! 
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 6</level_title>
+				<level_image>
+				https://i.imgur.com/dv6KKH6.jpg
+				<level_image>
+				<level_description>
+				The sixth level was developed to show the player that they can target specific units with 
+				the widow mine's attack. The player wins by destroying all of the enemy drones with the 
+				widow mine before the timer expires.
+				</level_description>
+				This level was originally very similar to the Starcraft Master level where the player had 
+				to burrow zerglings to ambush a pack of patrolling marines. In my original concept the player 
+				had a widow mine and the player had to burrow near a pack of patrolling banelings and target 
+				the center one to ensure all of them died. This was OK as well, but it felt like it was over 
+				too quickly and wasn't very challenging. I eventually changed it to a scenario as if the player 
+				had just gotten a dropship into the enemy base, and the enemy was trying to move all of their 
+				workers to safety. In the newer version of the game I also got to show the player that they can 
+				delay the widow mine's attack by switching between targets.
+				<level_notes>
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 7</level_title>
+				<level_image>
+				https://i.imgur.com/oXmYvt0.jpg
+				<level_image>
+				<level_description>
+				The seventh level was designed to show the player that they can block enemies by using 
+				changelings. The player wins by blocking a ramp with the changelings and then killing the 
+				enemy base.
+				</level_description>
+				<level_notes>
+				One of the main challenges was ensuring the NPC wasn't too smart and killed off the 
+				changelings so I created a very basic attack move command for the computer to ensure 
+				it would get blocked off. I also experimented and tried to drag the computer's units 
+				away with units but added variety to the computer's army to ensure that it wouldn't allow 
+				the player to win unintentionally. Additionally I ensured the players roaches on the left, 
+				that were created to give the player sight and time to set up their blockade, couldn't 
+				move by surrounding it tightly.
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 8</level_title>
+				<level_image>
+				https://i.imgur.com/7L3sCQ0.jpg
+				<level_image>
+				<level_description>
+				The eighth stage was designed to show the player that they can block ramps using fungal
+				growths to get an incredibly favorable engagement. The player wins by using fungal 
+				growth when roaches move up the ramp and positioning their entire army to attack while 
+				the enemy army is stuck.
+				</level_description>
+				<level_notes>
+				The design for this level was inspired by a streamer named Destiny who used the infestor
+				very often back in the Wings of Liberty expansion before the unit was used often. He 
+				used fungal growth on the ramp and called it a "fungal field" (similar to a Protoss's 
+				force field) which inspired the name of the level. There wasn't much change in terms of 
+				design for this level, but I believe I did experiment with the AI that the game comes 
+				with but ended up creating another simple AI that uses stutter step micro in order to get 
+				up the ramp.
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 9</level_title>
+				<level_image>
+				https://i.imgur.com/LdBmYiy.jpg
+				<level_image>
+				<level_description>
+				The ninth level was designed to show the player that hatcheries have creep underneath
+				them when they are being built, so the player can use it to build buildings in desperate
+				times. The player wins by building a hatchery and then canceling it to place a spore 
+				crawler down which kills all the enemy mutalisks.
+				</level_description>
+				<level_notes>
+				This level went through some pretty drastic changes. At the beginning I had a setup 
+				where there was an enemy army that was coming to kill off a couple of buildings that 
+				the player was given. The player won by building a spawning pool so they could make some
+				zerglings and kill off the NPC buildings before they lost their own. The pacing for this 
+				version was slow and I would often be bored waiting around since there was so much time 
+				needed creating the hatchery, canceling it, creating a spawning pool, waiting for it to 
+				finish, then creating zerglings, waiting for them to finish, and then killing off the 
+				enemy building. I had thought about adjusting the building times of the units and the 
+				buildings, but I wanted the game to have timings as close to the multiplayer game as 
+				possible so I changed the design to the current version.
+				</level_notes>
+			</level>
+			<level>
+				<level_title>Stage 10</level_title>
+				<level_image>
+				https://i.imgur.com/ffohY8t.jpg
+				<level_image>
+				<level_description>
+				The tenth level was designed to show the player that they can avoid damage from the 
+				lurker by moving their units as the lurker attacks. The player wins by carefully microing 
+				their units around, avoiding damage while killing off the enemy lurker.
+				</level_description>
+				<level_notes>
+				This level was inspired by a player named Boxer who showed what marines could do against 
+				lurkers. I had originally made this level basic and had the player only need to move one 
+				marine back and forth to avoid damage. Then I made the level hard. I made it very hard. 
+				I made it so hard that I could only confirm that it was working as intended through using 
+				some cheats made in the editor. I first changed it so the player could take absolutely no 
+				damage from the lurker (the lurker normally requires 2 shots to kill a marine). After 
+				playing around with this for a little bit, it was a bit harder but I could still manage 
+				to do it consistently. As this is the last level of the game I figured it could be very 
+				challenging, so I also created a custom AI to randomly target the marines, so the player 
+				would never know which one it would attack. The only way the player can win is by 
+				successfully microing all three marines given to avoid damage while still killing the 
+				lurker.
+				</level_notes>
+			</level>			
+		</design>
 		<urls>
-			<project_url>starcraftpuzzles.html</project_url>
-			<picture_url>images/Starcraft Puzzles Screenshot.png</picture_url>
-			<thumbnail_url>images/thumbnails/Starcraft Puzzles Thumbnail.png
+			<project_url>sc2puzzles.html</project_url>
+			<picture_url>images/SC2 Puzzles Screenshot.png</picture_url>
+			<thumbnail_url>images/thumbnails/SC2 Puzzles Thumbnail.png
 			</thumbnail_url>
 		</urls>
 		<tags>
