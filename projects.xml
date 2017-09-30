@@ -9,7 +9,10 @@
 		Starcraft 2 Map Editor. It is heavily inspired by the Blizzard created
 		Arcade map named "Starcraft Master". It was created to show some fun and
 		interesting interactions between units that were introduced in the
-		Legacy of the Void and Heart of the Swarm expansions.
+		Legacy of the Void and Heart of the Swarm expansions. I had originally
+		planned for more levels, but I eventually just stuck with these 10
+		because of the consistent balance changes for multiplayer. I may eventually
+		add more levels in the future.
 		</full_description>
 		<members>
 			<member role="Designer and Programmer">Steven Kawafuchi</member>
@@ -269,8 +272,8 @@
 			from three different difficulty levels, and the game can be used for
 			other languages as well.
 		</full_description>
-		<note>Currently in development and has bugs. There are also features
-			yet to be developed.
+		<note>This project was stopped in mid development for others, and I do
+		not think I will continue updating this one.
 		</note>
 		<directions>
 			<setup>Download the folder from the link. Extract the contents
