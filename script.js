@@ -115,11 +115,11 @@ function loadProject(projectName) {
 				
 				if(projectData.find("design").length){
 					projectData.find("level").each(function(){
-						$("#design").append('<div class="row"><div class="col-md-5"><img class="level-image" src="' +projectData.find("level_image").text()+ '" style="margin-top:20px; margin-bottom:10px; width:100%; height: 315px;"></div>' + 
-						'<div class="col-md-7"><h3>' + projectData.find("level_title").text() + '</h3>' + 
-						'<p>' + projectData.find("level_description").text() + '</p>' + 
+						$("#design").append('<div class="row"><div class="col-md-5"><img class="level-image" src="' +$(this).find("level_image").text()+ '" style="margin-top:20px; margin-bottom:10px; width:100%; height: 315px;"></div>' + 
+						'<div class="col-md-7"><h3>' + $(this).find("level_title").text() + '</h3>' + 
+						'<p>' + $(this).find("level_description").text() + '</p>' + 
 						'<h3>Level Notes</h3>' + 
-						'<p>' + projectData.find("level_notes").text() + '</p></div></div>');
+						'<p>' + $(this).find("level_notes").text() + '</p></div></div>');
 					});					
 				}
 
